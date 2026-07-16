@@ -6,12 +6,13 @@
 
 说明：（该脚本目前只在Mac环境中使用，Windows未进行验证）
 1、全屏JY；
-2、点击字幕可以显示字幕搜索框；
+2、点击字幕可以显示字幕搜索框（字幕中的数字一定要连续，不要出现中断，比如1、2、3、5，缺4会在别的地方打标签）；
 3、音频放在上面，多段需要合并成一段；
 4、我使用过程中遇到的就上面的问题，其他问题联系单独联系我吧（diqiuhao：hlc12336_）。
 
+
 -----
-安装说明
+安装使用说明
 一、脚本清单：
 capcut_auto.py （核心脚本）
 requirements.txt （依赖列表）
@@ -29,3 +30,7 @@ bash
 在【屏幕录制】里也把终端（Terminal）勾选上。
 安装环境搞定且给了权限之后，
 执行 python3 capcut_auto.py 就可以运行了！
+
+<img width="606" height="128" alt="image" src="https://github.com/user-attachments/assets/f04cfbfa-6c3f-4aff-be51-0abde7d7b3c4" />
+运行之后全屏JY，点字幕之后一定要能看到搜索数字的搜索框，在弹出的白色框里填写自己字幕中的最大数字（！！！数字一定要连续）
+<img width="1470" height="923" alt="image" src="https://github.com/user-attachments/assets/1eb8bc33-6ecb-45e3-8d52-424d9ca92785" />
